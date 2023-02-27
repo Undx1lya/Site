@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Кавказский рубеж</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+      <div class="navigation w3-highway-blue w3-container">
+        <nav class="nav-container w3-padding-large">
+          <div class="logo">
+            <a href="#home" >Кавказский<span>Рубеж</span></a>
+          </div>
+          <div class="mobile-button">
+            <span style="float: right;" onclick="toggleMobileNavigation()">&#9776;</span>
+          </div>
+          <div class="links">
+            <a href="#about" >Об отряде</a>
+            <a href="#task" >Задача отряда</a>
+            <a href="#history" >Историческая справка</a>
+            <a href="#contact" >Связь</a>            
+          </div>
+          <div id="mobile-sidenav" class="mobile-links w3-highway-blue">
+            <div class="mobile-logo" style="display: inline;">
+              <a href="#home" class="logo">Кавказский<span>Рубеж</span></a>
+              <span style="width: 90%;"></span>
+              <a href="javascript:void(0)" class="closebtn" onclick="toggleMobileNavigation()">&times;</a>
+            </div>
+            <a href="#about" onclick="toggleMobileNavigation()">Об отряде</a>
+            <a href="#task" onclick="toggleMobileNavigation()">Задача отряда</a>
+            <a href="#history" onclick="toggleMobileNavigation()">Историческая справка</a>
+            <a href="#contact" onclick="toggleMobileNavigation()">Связь</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="hero" id="home">
+        <div class="text container">
+          <p class="pre-title">Кабардино-Балкарская Региональная Общественная Организация Военно-Патриотический Поисковый Отряд</p>
+          <h1 class="title"><span>"Кавказский рубеж"</span></h1>
+          <p class="post-title">Мы живём потому, что они погибли защищая нашу Родину!
+Забыть, означает предать и прошлое и будущее...</p>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="#history">ЭТОГО ЗАБЫВАТЬ НЕЛЬЗЯ</a> 
+        </div>
+      </div>
+
+      <div class="about container w3-padding-large" id="about">
+        <div class="text-one">
+          <h2>Об отряде</h2>
+          <li>Кабардино-Балкарская региональная общественная организация Военно-патриотический поисковой отряд «Кавказский рубеж» был создан гражданами Российской Федерации, жителями Майского района КБР.</li>
+          <li>Основная задача, которая ставилась перед отрядом это раскрытие неизвестных фактов обороны Кавказа, поиск неизвестных и без вести пропавших и увековечивание памяти героев, ценой своей жизни остановивших врага на Кавказе.</li>
+          <li>На примере самоотверженного подвига защитников Отечества выстроить систему воспитания подрастающего поколения. История Великой Отечественной войны на территории Кабардино-Балкарии ещё долго не будет раскрыта полностью. Трагические события с конца лета 1942 по начало весны 1943 года, которые разворачивались на этой земле оставили следы не только в в земле но и в сердцах патриотов. Много не упокоенных останков защитников Родины до сих пор лежат в своих окопах там, где их настигла смерть.</li> 
+        </div>
+        <div class="text-one">
+          <h2>Цель</h2>
+        <li>Восстановление, сохранение и увековечение памяти о погибших защитниках Отечества.</li>
+        <li>Приобщение молодежи к здоровому образу жизни.</li>
+        <li>Воспитание у молодежи и населения идеалов гуманизма, милосердия и бескорыстного служения Отчизне.</p>
+        <li>Организация патриотического воспитания граждан РФ.</li>
+        <li>Популяризация поискового движения.</li>
+        <li>Возрождение и сохранение нравственных начал общества по отношению к павшим защитникам Родины.</li>
+        <li>Патриотическое воспитание молодежи.</li>
+        <li>Координация работы поисковых отрядов, занимающихся поиском и захоронением останков погибших в годы Великой Отечественной войны советских воинов.</li>
+          <a class="w3-button w3-round-large w3-indigo w3-hover-blue" href="#task">Подробнее</a> 
+        </div>
+      </div>
+
+      <div class="w3-panel w3-highway-blue numbers">
+        <h2 class="w3-center w3-xxxlarge">У нас</h2>
+        <p class="w3-center w3-xxxlarge show-medium">
+          <?xml version="1.0" encoding="utf-8"?>
+          <svg x="0px" y="0px" width="36" fill="#bed9f3" stroke="#bed9f3"
+            viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+          <g id="Down-arrow">
+            <path d="M17.2929993,29.7070007c-0.3906994-0.3906002-0.3906994-1.0234013,0-1.4140015
+              c0.3906002-0.3906002,1.0234013-0.3906002,1.4140015,0L32,41.5858994l13.2929993-13.2929001
+              c0.3905983-0.3906002,1.0233994-0.3906002,1.4140015,0C46.902298,28.4883003,47,28.7441998,47,29
+              c0,0.2558994-0.097702,0.5116997-0.2929993,0.7070007l-14,14c-0.3906021,0.3906975-1.0234013,0.3906975-1.4140015,0
+              L17.2929993,29.7070007z"/>
+            <path d="M32,64c17.6730957,0,32-14.3269005,32-32S49.6730957,0,32,0C14.3268003,0,0,14.3268995,0,32S14.3268003,64,32,64z M32,62
+              C15.4579,62,2,48.542099,2,32C2,15.4580002,15.4579,2,32,2s30,13.4580002,30,30C62,48.542099,48.542099,62,32,62z"/>
+          </svg>
+        </p>
+        <div class="container w3-padding-large">
+          <div class="text">
+            <p class="number">479</p>
+            <p>Clients</p>
+          </div>
+          <div class="text">
+            <p class="number">15</p>
+            <p>Employees</p>
+          </div>
+          <div class="text">
+            <p class="number">35</p>
+            <p>Участники</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="services container" id="task">
+        <h2 class="w3-center">Задача отряда</h2>
+        <li>Объединение энтузиастов поисковых работ в группы, отряды, поисковые территориальные объединения для ведения всех видов поисковой и исследовательской деятельности, направленной на установление судеб, имен воинов, павших при защите Отечества, и сохранение памяти о них.</li>
+        <li>Координация работы поисковых отрядов, занимающихся поиском и захоронением останков погибших в годы Великой Отечественной войны советских воинов.</li>
+        <li>Популяризация вклада Кабардино-Балкарской Республики в историю Великой Отечественной войны.</li>
+        <li>Популяризация поискового движения.</li>
+        <li>Патриотическое воспитание молодежи.</li>
+        <li>Приобщение молодежи к здоровому образу жизни.</li>
+        <li>Установление имен без вести пропавших солдат и розыск их близких родственников.</li>
+        <li>Организация методической подготовки, учебы, обмен опытом активистов поисковой работы.</li>
+        <li>Поиск, восстановление и сохранение образцов боевой техники и других исторических реликвий.</li>
+        <h3 class="w3-center">Предметом деятельности Организации в соответствии с действующим законодательством Российской Федерации является</h3>
+        <li>Проведение поисковой работы.</li>
+        <li>Содействие выявлению, созданию, благоустройству, реконструкции и реставрации имеющихся и новых воинских памятников, и мемориалов на территории РФ.</li>
+        <li>Опросы населения, обследование мест боев, установление неизвестных или забытых захоронений воинов.</li>
+        <li>Организация, координация и проведение комплекса полевых поисковых работ на местах бывших боевых действий.</li>
+        <li>Координация деятельности членов по увековечению памяти павших защитников Родины.</li>
+        <li>Организация и проведение учебных курсов, сборов, уроков, факультативов, слетов, семинаров и конференций, учебных Вахт Памяти в целях подготовки и переподготовки кадров.</li>
+        <li>Экспедиционная деятельность.</li>
+        <li>Создание бланка данных установленных в процессе поиска имен погибших, информации об объектах поисковых работ.</li>
+        <li>Осуществление сбора и распространение информации о поисковой деятельности и работе Организации для пропаганды своей деятельности в соответствии с действующем законодательством РФ.</li>
+        <li>Внесение в государственные органы предложений по вопросам восстановления, сохранения и увековечения памяти о погибших защитниках Отечества.</li>
+        <li>Сотрудничество с общественными организациями других областей, с зарубежными организациями и фондами, деятельность которых не противоречит уставным целям и задачам.</li>
+        <li>Участие в работе над «Книгой Памяти».</li>
+        <li>Содействие архивной и исследовательской деятельности.</li>
+      </div>
+
+      <div class="careers container" id="history">
+        <h2 class="w3-center">Историческая справка</h2>
+        <div class="cards w3-padding-large w3-margin-top">
+
+            <div class="card w3-card-4 w3-round-large">
+              <header class="w3-container w3-indigo">
+                 <h3>Великая Отечественная война</h3>
+              </header>
+
+              <div class="content w3-container">
+                <div class="card-text" style="padding-bottom: 20px;">
+                <h4>В далёком 1941 году на нашу Родину вероломно напал враг.</h4>
+                <ul style="list-style-type: none;">
+                  <li>Всё сознательное население нашего Отечества поднялось на борьбу с захватчиками. Против нашей страны воевала объединённая фашисткой Германией Европа.</li>
+                  <li>Основными союзниками немцев стали: Румыния 350 000 человек, Финляндия 340000 человек, Венгрия 245000 человек, Италия 200000 человек.</li>
+                  <li>Албания – 1-я албанская дивизия; Норвегия – 1 батальон егерей, 1 дивизия и легион СС;</li>
+                  <li>Бельгия – 2 дивизии, 1 легион СС; Польша – добровольческий легион СС;</li>
+                  <li>Болгария – 1-я болгарская бригада; Сербия – добровольческий корпус;</li>
+                  <li>Дания – 2 дивизии, 2 корпуса; Латвия – 2 дивизии, 1 корпус и 1 легион СС;</li>
+                  <li>Голландия – 3 дивизии, 1 легион СС; Эстония – 1 дивизия; Франция – 2 дивизии, 2 легиона;</li>
+                  <li>Хорватия – 2 дивизии, 1 корпус; Чехословакия – легион СС;</li>
+                </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="card w3-card-4">
+              <header class="w3-container w3-indigo">
+                 <h3>Добровольцы</h3>
+              </header>
+
+              <div class="content w3-container">
+                <div class="card-text" style="padding-bottom: 20px;">
+                <h4>К перечисленному выше следует еще добавить добровольцев со стороны фашистов:</h4>
+                <ul style="list-style-type: none;">
+                  <li>Британский корпус, набранный из британских военнопленных;</li>
+                  <li>1-я белорусская дивизия СС;</li>
+                  <li>1-я украинская дивизия СС;</li>
+                  <li>Грузинский легион;</li>
+                  <li>Туркестанский легион;</li>
+                  <li>Азербайджанский легион;</li>
+                  <li>Армянский легион;</li>
+                  <li>Дагестанский легион;</li>
+                  <li>Армия Власова 2 русских гренадерских дивизии;</li>
+                  <li>Легион, состоящий из чувашей, марийцев, удмуртов и башкир.</li>
+                </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="card w3-card-4">
+              <header class="w3-container w3-indigo">
+                 <h3>Победа!</h3>
+              </header>
+
+              <div class="content w3-container">
+                <div class="card-text" style="padding-bottom: 20px;">
+                <h4>9.04.1945 Был подписан акт о безоговорочной капитуляции фашистской Германии</h4>
+                <ul style="list-style-type: none;">
+                  <li>Наш народ выстоял и сломал хребет вражеской гадине. Многими миллионами жизней наших людей оплачена эта Победа. Сегодня потомки тех, кто стоял за началом этой войны пытаются переписать историю и обесценить усилия и жертвы наших предков. Они хотят сделать из наших предков агрессоров. Позволить им это сделать - равно предательству Родины!</li>
+                  <li>Сегодня происходит то что готовилось 80 лет нашими "союзниками" по антигитлеровской коалиции, наши вооруженные силы проводят денацификацию на земле Украины, на исконно Русской земле. В результате деятельности коллективного запада русские люди вынуждены противостоять с оружием в руках, а те кто это устроил потирают руки и не скрывают своей радости, они готовы воевать до последнего Украинца, потому что им не нужны славянские народы на этой земле, точно как и в плане Ост.</li>
+                  <li>Но они просчитались, они не помнят истории, надеясь на невозможное. Им не победить.</li>
+                  <li>Победа будет за нами!</li>
+                </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="contact container" id="contact">
+        <div class="short-contact">
+          <h2>Связь с нами</h2>
+          <p class="w3-xlarge">Если хочешь присоединится к отряду пиши!</p>
+          <div class="w3-large w3-margin-top contact-info">
+            <i class="fa fa-location-arrow"></i><span style="margin-left:10px;"><a href="https://www.google.ru/maps/place/Степная+ул.,+20,+Майский,+Кабардино-Балкарская+Респ.,+361113/@43.6289285,44.0592716,17.25z/data=!4m13!1m7!3m6!1s0x4050b9c78a257ce5:0x3e6de36e886a4017!2z0KHRgtC10L_QvdCw0Y8g0YPQuy4sIDIwLCDQnNCw0LnRgdC60LjQuSwg0JrQsNCx0LDRgNC00LjQvdC-LdCR0LDQu9C60LDRgNGB0LrQsNGPINCg0LXRgdC_LiwgMzYxMTEz!3b1!8m2!3d43.6292007!4d44.0606143!3m4!1s0x4050b9c78a257ce5:0x3e6de36e886a4017!8m2!3d43.6292007!4d44.0606143" target="_blank">Кабардино-Балкарская Республика, Майский район, город Майский, ул. Степная, д. 20</a></span><br>
+            <i class="fa fa-envelope-o"></i><span style="margin-left:10px;"><a href="mail.ru">poisk07@bk.ru</a></span><br>
+            <i class="fa fa-phone"></i><span style="margin-left:10px;"><span>+79064130379</span><span> Telegramm</span></span><br>
+            <i class="fa fa-phone"></i><span style="margin-left:10px;"><span>+79280803756</span><span> WhatsApp</span></span><br>
+          </div>
+          <div class="w3-large w3-margin-top contact-info">
+            <i class="fa fa-vk"></i><span style="margin-left:10px;"><a href="https://vk.com/public171702873" target="_blank" style="text-decoration: none;"> - ВКонтакте</a></span><br>
+          </div>
+        </div>
+        <div class="form w3-margin-top">
+          <div class="container w3-round-xlarge">
+            <form class="w3-highway-blue w3-padding-large w3-round-large">
+              <input type="hidden" name="project_name" value="Кавказский рубеж (сайт)">
+		          <input type="hidden" name="admin_email" value="poisk07@bk.ru">
+          		<input type="hidden" name="form_subject" value="Обратная связь сайта">
+              <label for="fname">Имя:</label>
+              <input type="text" id="name" name="Name" placeholder="Твоё имя"><br>
+
+              <label for="lname">Почта:</label>
+              <input type="text" id="email" name="Email" placeholder="Твоя почта">
+
+              <label for="subject">Письмо:</label>
+              <textarea type="text" id="subject" name="subject" placeholder="Напиши что нибудь.." style="height:200px"></textarea>
+              
+              <p>Отправляя это письмо вы соглашаетесь с <a href="privacy-policy.html" target="_blank">политикой конфиденциальности</a></p><br>
+              <input class="w3-metro-blue" type="submit" value="Отправить">
+            </form>
+
+            <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+            <script src="script.js"></script>
+
+          </div>
+        </div>
+      </div>
+
+      <div class=" w3-highway-blue w3-padding-large" id="footer">
+        <p class="w3-center logo">2023 - Кавказский<span>Рубеж</span></p>
+      </div>
+
+  <script>
+    function toggleMobileNavigation() {
+      const mobileNavigation = document.getElementById("mobile-sidenav");
+      mobileNavigation.classList.toggle('mobile-links-active');
+    }
+</script>
+  </body>
+</html>
